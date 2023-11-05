@@ -1,0 +1,13 @@
+MOUSEKEY_ENABLE = yes     # Mouse keys
+RGB_MATRIX_ENABLE = yes    # Enable WS2812 RGB underlight.
+VIA_ENABLE      = yes    # Enable VIA
+RGBLIGHT_ENABLE = no
+RGB_MATRIX_ENABLE = yes
+OLED_ENABLE     = yes
+# OLED_DRIVER     = SSD1306
+LTO_ENABLE      = yes
+# CAPS_WORD_ENABLE = yes
+# WPM_ENABLE = yes
+SRC += features/sentence_case.c
+SRC += features/swapper.c
+SRC += features/achordion.c
